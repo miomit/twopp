@@ -1,6 +1,6 @@
-import 'package:calculator/src/ast.dart';
-import 'package:calculator/src/lexer.dart';
-import 'package:calculator/src/token.dart';
+import 'package:twopp/src/ast.dart';
+import 'package:twopp/src/lexer.dart';
+import 'package:twopp/src/token.dart';
 
 num? calculates(String arg){
   try {

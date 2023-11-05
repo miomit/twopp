@@ -1,4 +1,4 @@
-import 'package:calculator/src/token.dart';
+import 'package:twopp/src/token.dart';
 
 class AST {
   Token value;
