@@ -1,7 +1,7 @@
 name: calculator
 description: Simple calculator.
 version: 0.0.1
-homepage:
+homepage: https://github.com/yuraMovsesyan/calculator
 
 environment:
   sdk: '>=3.1.5 <4.0.0'
