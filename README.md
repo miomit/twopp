@@ -1,6 +1,8 @@
 
 Uncomplicated calculator, implemented for study.
 
+![example](https://github.com/miomit/twopp/blob/main/assets/parseAST.png?raw=true)
+
 ## Usage
 
 ```dart
