@@ -1,7 +1,7 @@
 
 Uncomplicated calculator, implemented for study.
 
-![example](https://github.com/miomit/twopp/blob/main/assets/parseAST.png?raw=true)
+![example](https://raw.githubusercontent.com/miomit/twopp/main/assets/parseAST.gif)
 
 ## Usage
 
