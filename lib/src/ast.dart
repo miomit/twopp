@@ -1,12 +1,23 @@
+import 'package:graph_dot/graph_dot.dart';
 import 'package:twopp/src/token.dart';
 
-class AST {
+class AST implements ITree {
   Token value;
   List<AST> children;
 
   AST(this.value) : children = [];
 
   addChild(AST child) => children.add(child);
+  
+  @override
+  List<ITree> getChilds() {
+    return children;
+  }
+  
+  @override
+  String getLabel() {
+    return value.lexeme;
+  }
 }
 
 AST createAST(List<Token> tokens){
